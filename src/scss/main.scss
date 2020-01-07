@@ -1,0 +1,35 @@
+
+//ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/typography";
+@import "abstracts/animations";
+
+//BASE
+@import "base/base";
+
+
+//COMPONENTS
+@import "components/input";
+@import "components/notecard";
+@import "components/filters";
+@import "components/checkbox";
+
+//LAYOUT
+@import "layout/header";
+@import "layout/viewer";
+
+//PAGES
+@import "pages/notebook.scss";
+
+
+.active {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

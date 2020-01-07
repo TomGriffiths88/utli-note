@@ -1,0 +1,33 @@
+.checkbox {
+    
+        animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        // width: 16px;
+        // height: 16px;
+        // border: 1px solid black;
+        // display: inline-block;
+        // position: relative;
+        // margin-right: 5px;
+       
+        & input[type=checkbox]:checked  ~ .checkbox__label {
+            background-color: black;
+        }
+    
+    &__input {
+
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+        
+
+
+
+    &__label {
+        width: 16px;
+        height: 16px;
+        border: 1px solid black;
+        display: block;
+    }
+
+}
+

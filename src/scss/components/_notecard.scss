@@ -1,0 +1,48 @@
+.notecard {
+    width: 100%;
+    // border-bottom: 1px solid #f7f7f7;
+    padding: 2rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    &__note {
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    &__meta {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #f7f7f7;
+        margin-bottom: 2rem;
+    }
+
+    &__date {
+        margin-right: auto;
+        font-size: 1.2rem;
+        color: $colorLightGrey;
+    }
+
+    &__tags {
+        display: flex;
+        list-style-type: none;
+        font-size: 1.3rem;
+    }
+
+    &__tag {
+        margin-right: 5px;
+        cursor: pointer;
+        color: $colorLightGrey;
+        display: block;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: $colorBlack;
+        }
+    }
+
+
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ulti-note</title>
+    <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/main.min.css">
+</head>
+<body>
+    <div class="viewer">
+        <div class="header">
+         <h1 class="header__logo">Ulti-note</h1>
+         <p class="header__addButton" id="addBtn">+</p>
+         <p class="header__delButton" id="delBtn">-</p>
+         <p class="header__delSel" id="delSel">Delete Selected</p>
+        </div>
+        <div class="filters">
+           <h3 class="filters__label">tagged:</h3>
+           <p class="filters__clear">clear</p>
+        </div>
+        <div class="input">
+            <textarea rows="30" columns="70" class="input__note" id="noteInput">Write your new note here...</textarea>
+        </div>
+        <div class="page  notebook">
+            <!-- <div class="notecard">
+                <p class="notecard__date">25th December 2019</p>
+                <p class="notecard__note">Must read David Byrnes new book</p>
+                    <ul class="notecard__tags">
+                        <li>#music</li>
+                        <li>#books </li>
+                    </ul>
+                </div>
+
+            <div class="notecard">
+                <p class="notecard__date">25th December 2019</p>
+                <p class="notecard__note">When using babel to compile ES6. You must then expose it to the global object using window.</p>
+                    <ul class="notecard__tags">
+                        <li>#music</li>
+                        <li>#books </li>
+                    </ul>
+            </div> -->
+
+        </div>
+        </div>
+        <script src="src/js/index.js"></script>
+</body>
+</html>

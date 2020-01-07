@@ -1,0 +1,36 @@
+.filters {
+
+
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: $heading-fonts;
+    transition: all 2s ease;
+    display: none;
+
+    &__label {
+        margin-right: 1rem;
+        transition: all 0.5s ease;
+    }
+
+    &__token {
+        background-color: $colorBlack;
+        padding: .3rem 1rem;
+        color: $color-white;
+        transition: all 0.5s ease;
+    }
+
+    &__clear {
+        margin-left: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    
+   
+}
